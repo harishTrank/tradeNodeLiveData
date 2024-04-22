@@ -1,7 +1,7 @@
 const { Pool } = require("pg");
 const axios = require("axios");
 
-const host = "65.0.30.73";
+const host = "13.234.111.203";
 const endPoints = `${host}:8000`;
 const pool = new Pool({
   host,
